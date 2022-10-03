@@ -28,3 +28,7 @@ if (a == 7)
 {
     Console.WriteLine("Seventh day of the week is Sunday!");
 }
+else
+{
+    Console.WriteLine("Incorrect noun!");
+}
