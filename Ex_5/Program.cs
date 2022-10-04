@@ -6,13 +6,6 @@ Console.Write(" to ");
 Console.Write(n);
 Console.WriteLine(":");
 int i = -n;
-while (i < 0)
-{
-    Console.Write(i);
-    Console.Write(", ");
-    i++;
-}
-i = 0;
 while (i < n)
 {
     Console.Write(i);

@@ -1,4 +1,10 @@
 ﻿Console.WriteLine("Please, input three-digit noun: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int a = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+while (a < 100|a > 999)
+{
+    Console.WriteLine("Incorrect noun!");
+    Console.WriteLine("Please, input three-digit noun: ");
+    a = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+}
 Console.Write("The last number is ");
-Console.WriteLine(Math.Abs(a%10));
+Console.WriteLine(a%10);
