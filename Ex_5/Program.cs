@@ -1,5 +1,5 @@
 ﻿Console.Write("Input noun, please:  ");
-int n = Convert.ToInt32(Console.ReadLine());
+int n = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 Console.Write("All integer nouns from -");
 Console.Write(n);
 Console.Write(" to ");
