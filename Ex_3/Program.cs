@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Input noun from 1 to 7 ");
+﻿Console.WriteLine("Input noun from 1 to 7 ");  
 int a = Convert.ToInt32(Console.ReadLine());
 if (a == 1)
 {
